@@ -8,25 +8,14 @@ Una evolución de KipuBankV2 que acepta **cualquier token con liquidez en Uniswa
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Uniswap V2](https://img.shields.io/badge/Uniswap-V2-FF007A)](https://uniswap.org/)
 
----
-
-## 📚 Tabla de Contenidos
-
-- [Resumen Ejecutivo](##resumen-ejecutivo)
-- [Mejoras Clave vs V2](##mejoras-clave-vs-v2)
-- [Arquitectura Técnica](##arquitectura-técnica)
-- [Instalación y Configuración](##instalación-y-configuración)
-- [Despliegue](##despliegue)
-- [Interacción con el Contrato](##interacción-con-el-contrato)
-- [Decisiones de Diseño](##decisiones-de-diseño)
 
 ---
 
-## 🎯 Resumen Ejecutivo
+## 🎯 Resumen
 
-KipuBankV3 representa un salto cualitativo hacia una aplicación DeFi real y usable. **El problema central que resuelve**: los usuarios tienen múltiples tokens pero quieren simplicidad en su gestión.
+KipuBankV3 representa un salto hacia una aplicación DeFi real y usable. **El problema central que resuelve**: los usuarios tienen múltiples tokens pero quieren simplicidad en su gestión.
 
-### ¿Qué hace KipuBankV3?
+### KipuBankV3 mejoras visibles:
 
 1. **Acepta CUALQUIER token** con liquidez en Uniswap V2 (ETH, WBTC, DAI, LINK, etc.)
 2. **Swapea automáticamente** a USDC usando el mejor path disponible
@@ -34,7 +23,7 @@ KipuBankV3 representa un salto cualitativo hacia una aplicación DeFi real y usa
 4. **Respeta límites USD** - el bank cap se valida post-swap
 5. **Mantiene funcionalidad V2** - control de acceso, estadísticas, eventos
 
-### Caso de Uso Real
+### Caso de Uso
 
 ```
 Usuario tiene: 1 ETH + 0.5 WBTC + 100 DAI + 50 LINK
@@ -46,7 +35,7 @@ Usuario quiere: Depositar todo en un lugar seguro
 
 ---
 
-## 🚀 Mejoras Clave vs V2
+## 🚀 Mejoras Clave V2 vs V3
 
 | Aspecto | KipuBankV2 | KipuBankV3 |
 |---------|------------|------------|
