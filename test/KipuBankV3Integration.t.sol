@@ -43,7 +43,7 @@ contract KipuBankV3IntegrationTest is Test {
             kipuBank.addSupportedToken(DAI_SEPOLIA, true); // true = requiere swap
             
         } catch {
-            console.log("⚠️ ADVERTENCIA: No se encontró SEPOLIA_RPC_URL. Saltando tests de integración.");
+            console.log(" ADVERTENCIA: No se encontro SEPOLIA_RPC_URL. Saltando tests de integracion.");
         }
     }
 
